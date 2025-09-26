@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Vishvanath Singh</title>
+  <link rel="stylesheet" href="style.css" />
+<script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Hero -->
+<header class="hero fade-in typewriter">
+  <h1>Dr. Vishvanath Singh</h1>
+  <p>PhD | MBA | MSc — Aviation, Tourism & Hospitality Expert</p>
+  <button onclick="document.getElementById('bio').scrollIntoView()">Explore Legacy</button>
+</header>
+
+  <!-- Bio -->
+  <section id="bio" class="section fade-in">
+    <h2>Biography</h2>
+    <p>Dr. Vishvanath Singh is a seasoned leader with over 20 years of strategic experience across aviation, tourism, and hospitality...</p>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section fade-in">
+    <h2>Education</h2>
+    <ul>
+      <li>PhD in Hospitality Research</li>
+      <li>MBA in Tourism Management</li>
+      <li>MSc in Aviation Studies</li>
+      <li>ToT Certified – NSDC</li>
+    </ul>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section fade-in experience-grid">
+  <h2>Experience</h2>
+  <div class="card">Head Sales – Ulala Holidays</div>
+  <div class="card">Ex Lead India – dnata | MakeMyTrip</div>
+  <div class="card">Kuoni | Eastbound | Druk Airline</div>
+</section>
+
+  <!-- Social -->
+  <section id="social" class="section fade-in">
+    <h2>Social & Speaking</h2>
+    <ul>
+      <li>Tourism Education & CSR – NGO</li>
+      <li>Motivational Speaker</li>
+      <li>Entrepreneurship & Career Coach</li>
+      <li>Training & Development Consultant</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+ <section id="contact" class="section fade-in">
+  <h2>Contact</h2>
+  <img src="assets/vishvanath-qr.png" alt="QR Code" class="qr-click" onclick="openModal()" />
+  <p>Scan to save contact instantly</p>
+
+  <div id="qrModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h3>Save Contact</h3>
+      <img src="assets/vishvanath-qr.png" alt="QR Code" />
+      <p>Email: vishvanath899@gmail.com</p>
+      <p>Phone: +91 9560800655</p>
+      <p>Location: New Delhi, India</p>
+    </div>
+  </div>
+</section>	
